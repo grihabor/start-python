@@ -68,11 +68,3 @@ This section is for absolute beginners
     input: 11
     output: (3 + ... + 9) + (5 + ... + 10) = 33
     ```
-
-
-12. Write a function to print such sums '(3 + ... + 9)'
- 6. Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
- 7. Write a program that prints a multiplication table for numbers up to 12.
- 8. Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
- 9. Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
- 10. Write a program that prints the next 20 leap years.
