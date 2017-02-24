@@ -1,25 +1,25 @@
 # Elementary
 
-This section is for absolute beginners
+Эта секция для начинающих
 
-## List of exercises
+## Список упражнений
 
 ### 1. Hello World!
-- Print ‘Hello World!’ to the screen.  
+- Напечатайте ‘Hello World!’ на экран.  
 
     ```
     output: Hello World!
     ```
     
-### 2. Greetings!
-- Ask the user for his name and then greet him using his name.  
+### 2. Привет!
+- Спросите у пользователя его имя и скажите ему привет.  
 
     ```
     output: What's your name?  
     input: Gregory  
-    output: Hi, Gregory!  
+    output: Hi, Gregory!   
     ```
-- Modify the program such that only the user Admin is greeted with his name.  
+- Измените код программы так, чтобы приветствие показывалось только пользователю Admin.  
 
     ```
     output: What's your name?
@@ -27,29 +27,29 @@ This section is for absolute beginners
     output: Bye
     ```
     
-### 3. Sum
-- Write a program that asks the user for a number n and prints the sum of the numbers 1 to n  
+### 3. Сумма
+- Напишите программу, которая просит пользователя ввести число n и печатает сумму чисел от 1 до n  
 
     ```
     output: Enter a number: 
     input: 10
     output: 55
     ```
-- Modify the program such that only positive numbers are accepted as input  
+- Измените код программы так, чтобы можно было вводить только положительные числа  
 
     ```
     output: Enter a number: 
     input: -5
     output: ValueError: Input value must be > 0 
     ```
-- Modify the program such that sum output is human readable  
+- Измените код программы так, чтобы любой человек понял, что именно считает ваша программа  
 
     ```
     output: Enter a number: 
     input: 6
     output: 1 + ... + 6 = 21
     ```
-- Modify the program such that only multiples of three or five are considered in the sum  
+- Измените код программы так, чтобы в сумме учитывались только числа кратные 3 и 5  
   + easy  
   
     ```
@@ -71,7 +71,7 @@ This section is for absolute beginners
     input: 11
     output: (3 + ... + 9) + (5 + ... + 10) = 33
     ```
-- Modify the program to use builtin sum() function  
+- Измените код программы так, чтобы для суммирования в нем использовалась только встроенная функция sum()  
 
     ```
     output: Enter a number: 
