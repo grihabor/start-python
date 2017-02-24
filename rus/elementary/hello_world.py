@@ -1,26 +1,26 @@
-# To print anything to the screen use print() function
-# Examples:
+# Чтобы вывести что-нибудь на экран, используйте функцию print()
+# Примеры:
 
 print('example')
 print("second example")
-print("third", 'one')
+print("третий", 'пример')
 
-### At this point you can already complete the task!
+### Теперь вы можете выполнить задание!
 
-# Here are some details on what's going on
+# Вот некоторые подробности:
 
-# When you type some characters inside a pair of parentheses
-# you create an object of type 'str' that holds the string.
+# Когда вы пишите символы внутри кавычек, на самом деле вы создаете
+# объект типа 'str', который содержит эту строку
 
-# After that you can link the object with a name:
+# После этого можно связать с этим объектом какое-нибудь имя:
 
 a = 'some string'
 
-# In this example we associate name 'a' with a string
-# with a string 'some string'. Now we can pass it to print:
+# В этом примере мы связываем имя 'a' со строкой 'some string'
+# Теперь мы можем напечатать объект, используя имя:
 
-print(a)
+print(a) # напечатает 'some string'
 
-# Or we could do that without an intermedeate step:
+# То же самое можно сделать и без промежуточного шага:
 
 print('some string')
