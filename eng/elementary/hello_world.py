@@ -16,10 +16,10 @@ print("third", 'one')
 
 a = 'some string'
 
-# In this example we associate name 'a' with a string
-# with a string 'some string'. Now we can pass it to print:
+# In this example we associate name 'a' with a string 'some string'
+# Now we can pass it to print:
 
-print(a)
+print(a) # prints 'some string'
 
 # Or we could do that without an intermedeate step:
 
