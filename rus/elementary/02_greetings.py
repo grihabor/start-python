@@ -33,7 +33,19 @@ age = 17
 if age >= 18:
     print('You are allowed to vote')
 if age < 18:
-    print('You can't vote yet!')
-          
+    print("You can't vote yet!")
+    
+# В этом примере мы проверяем значение переменной age (англ. "возраст")
+# Если оно меньше 18, мы можем голосовать, в противном случае - нет
 
-  
+### else, elif
+
+# Переписать предыдущий пример можно следующим образом:
+
+if age >= 18:
+    print('You are allowed to vote')
+else:
+    print("You can't vote yet!")
+
+# Здесь мы используем оператор else (англ. "в противном случае")
+# 
