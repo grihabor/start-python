@@ -48,4 +48,16 @@ else:
     print("You can't vote yet!")
 
 # Здесь мы используем оператор else (англ. "в противном случае")
-# 
+# Если же у нас есть 3 или более случая, которые не могут произойти одновременно,
+# можно использовать оператор elif:
+
+x = 2
+if x == 1:
+    print('one')
+elif x == 2:
+    print('two')
+elif x == 3:
+    print('three')
+else:
+    print('number is not supported:', x)
+    
