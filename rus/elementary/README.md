@@ -56,14 +56,7 @@
     output: Enter a number: 
     input: 11
     output: 33
-    ```
-  + medium  
-  
-    ```
-    output: Enter a number: 
-    input: 11
-    output: 3 + 5 + 6 + 9 + 10 = 33
-    ```
+    ```  
   + hard  
   
     ```
