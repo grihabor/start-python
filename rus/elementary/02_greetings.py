@@ -55,6 +55,7 @@ if age < 18:
 
 # Переписать предыдущий пример можно следующим образом:
 
+age = 17
 if age >= 18:
     print('You are allowed to vote')
 else:
