@@ -97,10 +97,12 @@ result = result + s # 'wtf' + 'wtf'
 i = 2
 result = result + s # 'wtfwtf' + 'wtf'
 # в result теперь лежит 'wtfwtfwtf'
-## Итерация цикла i = 3
+## Итерация цикла 3
+i = 3
 result = result + s # 'wtfwtfwtf' + 'wtf'
 # в result теперь лежит 'wtfwtfwtfwtf'
-## Итерация цикла i = 4
+## Итерация цикла 4
+i = 4
 result = result + s # 'wtfwtfwtfwtf' + 'wtf'
 # в result теперь лежит 'wtfwtfwtfwtfwtf'
 print(result) # напечатает 'wtfwtfwtfwtfwtf'
