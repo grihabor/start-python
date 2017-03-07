@@ -1,7 +1,16 @@
 # start-python
-Python exersices for everyone!
+Курс питона для тех, кто хочет сразу практиковаться
 
-[Упражнения и уроки для начинающих](https://github.com/grihabor/start-python/tree/master/rus/elementary)
+## Как лучше использовать эти уроки и упражнения
+Начните с первого раздела  
+В каждом разделе есть одна или несколько задач и соответствующий разделу .py файл с объяснениями  
+Для каждого раздела:  
+  + Изучите .py файл с объяснениями  
+  + Выполняйте задания либо после прочтения всего файла, либо в те моменты, где это написано в файле     
+  
+Теперь выберите свой уровень:   
+  - [Для начинающих (только начали программировать)](https://github.com/grihabor/start-python/tree/master/rus/elementary)
+  - Средний уровень
 
 ### Links to sources
  + [Simple Programming Problems](https://adriann.github.io/programming_problems.html)  
