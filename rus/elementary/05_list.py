@@ -22,6 +22,11 @@ my_list = [1, 'string', 3.14]
 
 my_list = list(1, 'string', 3.14)
 
+# Еще примеры:
+
+empty_list = [] # пустой список
+matrix = [[1, 2], [3, 4]] # список списков (двумерный список)
+
 ### len(list)
 
 # Чтобы получить длину списка (количество элементов) используйте len()
@@ -63,4 +68,73 @@ print(my_list[1::2]) # ['string', 'wtf']
 my_list = [1, 'string', 3.14]
 my_list.append('wtf')
 print(my_list) # [1, 'string', 3.14, 'wtf']
+
+### list() + list()
+
+# При сложении списков получается новый список, который содержит элементы первых двух
+
+one = [1, 'one']
+two = [2, 'two']
+print(one + two) # [1, 'one', 2, 'two']
+
+### list.extend()
+
+# Чтобы добавить элементы второго списка в конец первого используйте extend()
+
+one = [1, 'one']
+two = [2, 'two']
+one.extend(two)
+print(one) # [1, 'one', 2, 'two']
+
+# Зачем нужен extend, если уже есть сложение строк?
+# Разница заключается в том, что extend меняет уже существующий список, в то время как сложение создает новый список
+
+# До этого момента мы сталкивались только с неизменяемыми объектами типов 'int', 'float' или 'str'
+# Все операции создавали новые объекты, поэтому об этом можно было не задумываться, однако со списками это не так
+
+# Посмотрим на такой пример:
+
+mylist = ['what', 'is', 'going on']
+wtf = mylist
+wtf[1] = 'the'
+wtf[2] = 'foo'
+print(mylist) # ['what', 'the', 'foo']
+
+# Почему наш список изменился?
+# Все потому что у нас не создалась копия списка
+# В строчке wtf = mylist нашему списку просто присваивается еще одно имя wtf, поэтому обращаясь к элементам wtf, мы меняем все тот же список
+
+# Если мы хотим создать новый список, нужно сделать немного по-другому
+
+# Способ 1
+
+mylist = ['what', 'is', 'going on']
+wtf = list(mylist[0], 'the', 'foo')
+print(wtf) # ['what', 'the', 'foo']
+print(mylist) # ['what', 'is', 'going on']
+
+# Способ 2
+
+mylist = ['what', 'is', 'going on']
+wtf = mylist[:1] + ['the', 'foo']
+print(wtf) # ['what', 'the', 'foo']
+print(mylist) # ['what', 'is', 'going on']
+
+# Способ 3
+
+mylist = ['what', 'is', 'going on']
+wtf = list(mylist)
+wtf[1] = 'the'
+wtf[2] = 'foo'
+print(wtf) # ['what', 'the', 'foo']
+print(mylist) # ['what', 'is', 'going on']
+
+# Способ 4
+
+mylist = ['what', 'is', 'going on']
+wtf = mylist[:]
+wtf[1] = 'the'
+wtf[2] = 'foo'
+print(wtf) # ['what', 'the', 'foo']
+print(mylist) # ['what', 'is', 'going on']
 
