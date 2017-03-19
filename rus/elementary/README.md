@@ -183,7 +183,8 @@
     output: Enter list of integers:
     input: 98 2 8 72
     output: 50 5 40
-    ```
+    ```  
+    
     Пояснения:  
     <table>
     <head>
